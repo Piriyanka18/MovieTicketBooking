@@ -1,0 +1,102 @@
+body{
+    background: url(book_bag.jpg);
+}
+
+
+
+nav{
+    background:rgb(221, 112, 112);
+    height: 80px;
+    width: 100%;;
+
+}
+
+
+ label.logo{
+     color: white;
+     font-size: 35px;
+     line-height: 80px;
+     padding: 0 100px;
+     font-weight: bold;
+ }
+
+ nav ul{
+     float: right;
+     margin-right: 20px;
+ }
+
+ nav ul li{
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
+
+ }
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+
+}
+a.active,a:hover{
+    background: #aa0808;
+    transition: .5s;
+}
+
+.book_now{
+    width: 300px;
+    height: 600px;
+    background: rgb(221, 112, 112);
+    color: #fff;
+    top: 70%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+    font-size: 15px;
+}
+
+
+.mn{
+	background-color:#130f0f;
+	text-align: center;
+	text-shadow: red;
+	color:white;
+}
+
+.book_now input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 60px;
+}
+.book_now input[type="button"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+
+}
+
+input[type=text],
+input[type=date],
+select,
+textarea{
+	width:70%;
+	padding:12px;
+	border:1.5px solid #ee1230;
+	border-radius:4px;
+	box-sizing:border-box;
+	margin-top:10px;
+	margin-bottom:20px;
+	resize:vertical;
+    font-size: 15;
+}
+
+.show{
+    top: 110%;
+
+}

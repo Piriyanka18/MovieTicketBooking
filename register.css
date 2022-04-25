@@ -1,0 +1,88 @@
+body{
+	background: url(reg-bag.jpg);
+}
+nav{
+    background: url(./Image/55.jpg);
+    height: 80px;
+    width: 100%;;
+
+}
+
+
+ label.logo{
+     color: white;
+     font-size: 35px;
+     line-height: 80px;
+     padding: 0 100px;
+     font-weight: bold;
+ }
+
+ nav ul{
+     float: right;
+     margin-right: 20px;
+ }
+
+ nav ul li{
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
+
+ }
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+
+}
+a.active,a:hover{
+    background: #048d82;
+    transition: .5s;
+}
+
+
+input[type=text],
+input[type=password],
+input[type=email],
+select,
+textarea{
+	width:70%;
+	padding:12px;
+	border:1.5px solid #8fc400;
+	border-radius:4px;
+	box-sizing:border-box;
+	margin-top:10px;
+	margin-bottom:20px;
+	resize:vertical;
+}
+
+.R1{
+	margin-left:400px;
+	margin-right:400px;
+	border-radius:5px;
+	background-color:#f2f2f2;
+	border:1px solid #8fc400;
+	padding:20px;
+}
+
+.mn{
+	background-color:#8fc400;
+	text-align: center;
+	text-shadow: red;
+	color:white;
+}
+.R1 input[type="submit"],input[type="reset"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #8fc400;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.R1 input[type="submit"]:hover,input[type="reset"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+
+}

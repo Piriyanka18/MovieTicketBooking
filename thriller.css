@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.clm{
+    float: left;
+    width: 20%;
+    padding: 3px;
+}
+.clm img{
+    height: 300px;
+}
+.thriller input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.thriller input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+
+}
+body{
+    background: url(./Image/55.jpg);
+}
+
+.movie ul{
+
+    margin-right: 20px;
+    text-align: center;
+}
+
+.movie ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+.movie ul li a{
+    color: #fff;
+    font-size: 17px;
+
+}
+
+a.active,a:hover{
+    background: #e44b4b;
+    transition: .5s;
+}

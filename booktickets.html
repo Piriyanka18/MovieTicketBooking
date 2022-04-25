@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Booking Tickets</title>
+        <link rel="stylesheet" href="booktickets.css">
+    </head>
+    <body>
+        <nav>
+            
+            <label class="logo">MOVIE</label>
+            <ul>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="allmovies.html">ALL MOVIES</a></li>
+                <li><a href="booktickets.html">BOOK TICKETS</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                
+            </ul>
+        </nav>
+
+        <div class="book_now">
+            <div class="mn">
+                <h1>Book Your Ticket</h1>
+            </div>
+            
+            <form>
+                <label for="">Select Movie</label><br />
+                    <select id="pro" name="Select Movie" required="">
+                         <option value="action">Action</option>
+                         <option value="horror">Horror</option>
+                         <option value="romance">Romance</option>
+                         <option value="comedy">Comedy</option>
+                         <option value="thriller">Thriller</option>
+                         <option value="fantasy">Fantasy</option>
+                     </select></br>
+                     
+                     <label for="txtselectdate">Select Date</label><br />
+                     <input type="date" id="selectdate" name="selectdate" placeholder="12 March,2022" required="">
+                     <br/>
+                    <label for="">Select show</label><br />
+                     <select id="pro1" name="selectshow">
+                          <option value="morning">Morning</option>
+                          <option value="afternoon">Afternoon</option>
+                          <option value="night">Night</option>
+                          
+                      </select></br>
+                    <label for="">Number of Seats</label><br />
+                      <select id="pro2" name="numberofseats" required="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>    
+                      </select></br></br>
+                  <a href="book_seat.html" ><input type="button" name="" value="Book Ticket" ></a>
+            </form>
+        </div>
+    </body>
+</html>

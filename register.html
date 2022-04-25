@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="register.css">
+    <script type="text/javascript" src="js.js"></script>
+
+
+  </head>
+  <body>
+    <nav>
+            
+        <label class="logo">MOVIE</label>
+        <ul>
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="allmovies.html">ALL MOVIES</a></li>
+            <li><a href="booktickets.html">BOOK TICKETS</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            
+        </ul>
+    </nav>
+    <div class="R1">
+			<div class="mn">
+				<h1>
+				Registration Page
+				</h1>
+			</div>
+      <div>
+				<center>
+					<img src="reg.jpg" height="30%" width="80%">
+				</center>
+			</div>
+    <div>
+      <form name="myform2" onsubmit="return vfun1()" action="register.php" method="POST">
+
+        <label for="txtname">User Name</label><br />
+        <input type="text" id="txtname" name="uname1" placeholder=" Name" required="" value="">
+        <br/>
+
+        <label for="txtpassword">Password</label><br />
+        <input type="password" id="txtsurename" name="upswd1" placeholder="Password" required=""  value="">
+        <br/>
+
+        <label for="txtpassword">Conform Password</label><br />
+        <input type="password" id="password" name="cupswd" placeholder="conform password" required=""  value="">
+        <br/>
+
+        <label for="txthousenumber">House Number</label><br />
+        <input type="text" id="txthousenumber" name="housenumber" placeholder="House Number" required=""  value="">
+        <br/>
+
+        <label for="txtpostalcode">Postal Code</label><br />
+        <input type="text" id="txtpostalcode" name="postalcode" placeholder="Postal Code" required=""  value="">
+        <br/>
+
+        <label for="">Province</label><br />
+        <select id="pro" name="province" required=""  value="">
+          <option value="Central">Central</option>
+          <option value="Eastern">Eastern</option>
+          <option value="North Central">North Central</option>
+          <option value="Northern">Northern</option>
+          <option value="North Western">North Western</option>
+          <option value="Sabaragamuwa">Sabaragamuwa</option>
+          <option value="Southern">Southern</option>
+          <option value="Uva">Uva</option>
+          <option value="Western">Western</option></select
+        ><br />
+
+        <label for="">City</label><br />
+        <select name="city" id="city" required=""  value="">
+          <option value="Jaffna">Jaffna</option>
+          <option value="Kilinochchi">Kilinochchi</option>
+          <option value="Mannar">Mannar</option>
+          <option value="Vavuniya">Vavuniya</option>
+          <option value="Colombo">Colombo</option>
+          <option value="Mullaitivu">Mullaitivu</option>
+          <option value="Puttalam">Puttalam</option>
+          <option value="Kurunegala">Kurunegala</option></select
+        ><br />
+
+        <label for="">Country</label><br />
+        <select name="country" id="" required=""  value="">
+          <option value="sri lanka">Srilanka</option></select>
+        <br/>
+
+        <label for="txttelnumber">Tel Number</label><br />
+        <input type="text" id="txttelnumber" name="telnumber" placeholder="Tel Number" required=""  value="">
+        <br/>
+
+        <label for="txtmobnumber">Mob Number</label><br />
+        <input type="text" id="txtmobnumber" name="mobnumber" placeholder="Mob Number" required=""  value="">
+        <br/>
+
+        <label for="txtwebsite">WebSite</label><br />
+        <input type="text" id="txtwebsite" name="website" placeholder="website" required=""  value="">
+        <br/>
+
+        <label for="txtemail">Email Address :</label><br/><br/>
+				<input type="email" id="txtemail" name="email" placeholder="Email Address" required=""  value="">
+				<br/><br/>
+
+        <label for="txtfacebook">Facebook</label><br />
+        <input type="text" id="txtfacebook" name="facebook" placeholder="Face Book" required=""  value="">
+        <br/>
+
+        <label for="">Remarks</label><br />
+        <textarea name="remark" id="" cols="30" rows="10" required=""  value=""></textarea><br />
+
+        <div id="errorBox"></div>
+        <height="181"><input type="submit" name="" id="btnSubmit" value="Submit" onClick="validate()"/>
+        <input type="reset" name="" id="btnReset" value="Reset"/>
+      </form>
+    </div>
+  </body>
+</html>

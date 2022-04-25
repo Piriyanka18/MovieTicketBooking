@@ -1,0 +1,40 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title>LOG IN </title>
+        <link rel="stylesheet" href="login.css">
+        <script type="text/javascript" src="js.js"></script>
+    </head>
+   
+    <body>
+        <nav>
+            
+            <label class="logo">MOVIE</label>
+            <ul>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="allmovies.html">ALL MOVIES</a></li>
+                <li><a href="booktickets.html">BOOK TICKETS</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                
+            </ul>
+        </nav>
+<div class="loginbox">
+    <img src="1.png" class="avatar">
+    <h1>Log in Here</h1>
+    <form name="myform" onsubmit="return vfun()" action="login.php" method="POST">
+        <p>User Name</p>
+        <input type="text" name="uname" placeholder="Enter your Name" required="">
+        <p>Password</p>
+        <input type="password" name="upswd" placeholder="Enter password" required=""><br><br>
+        <div id="errorBox"></div>
+        <input type="submit" name="" value="Login"><br>
+       <a href="register.html" ><input type="button" name="" value="Register"></a></br>
+        
+        <a href="#">Lost your password?</a><br>
+        <a href="#">Don't have an account</a>
+    </form>
+</div>
+    </body>
+</html>
